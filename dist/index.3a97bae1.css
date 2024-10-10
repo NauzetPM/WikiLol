@@ -1,0 +1,245 @@
+body {
+  background: #172525;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  width: 600px;
+  height: 200px;
+}
+
+.body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  color: #e4b05d;
+  text-align: center;
+  background-color: #7401a1;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 32px;
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: inline-block;
+  box-shadow: 0 8px 16px #0003, 0 6px 20px #00000030;
+}
+
+.button:hover {
+  background-color: #5e00a1;
+}
+
+#lols {
+  grid-gap: 10px 10px;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  display: grid;
+}
+
+.card {
+  text-align: center;
+  background-image: linear-gradient(#585858, #2d2d2d);
+  border: 2px solid #4e4e4e;
+  border-radius: 5px;
+  font-family: DejaVu Sans Mono, monospace;
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.champion-name {
+  color: #e4b05d;
+  background-image: linear-gradient(#b80da9, #831786);
+  border: 1px solid #000;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.champion-title {
+  color: #e4b05d;
+  background-image: linear-gradient(#b80da9, #831786);
+  border: 1px solid #000;
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.modal {
+  z-index: 1000;
+  background-color: #000000e6;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px #00000080;
+}
+
+.minimize {
+  color: #e4b05d;
+  cursor: pointer;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  transition: background-color .3s;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.minimize:hover {
+  background-color: #d32f2f;
+}
+
+.carousel-button {
+  cursor: pointer;
+  background-color: #ffffff1a;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color .3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-button:hover {
+  background-color: #ffffff4d;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-image {
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.close {
+  color: #e4b05d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: gold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-champion-name {
+  color: #e4b05d;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.modal-champion-title {
+  color: #e4b05d;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.modal-champion-description, .modal-champion-tags {
+  color: #e4b05d;
+  font-size: 14px;
+}
+
+.ability-info {
+  color: #e4b05d;
+  z-index: 1001;
+  text-align: center;
+  background-color: #000000e6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 10px;
+  display: none;
+  position: fixed;
+}
+
+.abilities-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+  display: flex;
+}
+
+h4 {
+  color: #e4b05d;
+}
+
+.ability {
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  display: flex;
+}
+
+.ability img {
+  width: 50px;
+  height: 50px;
+}
+
+.ability div {
+  text-align: center;
+  font-size: 12px;
+}
+
+.carousel {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.carousel-slide {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-champion-name, .modal-champion-title, .modal-champion-description, .modal-champion-tags {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=index.3a97bae1.css.map */
