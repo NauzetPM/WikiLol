@@ -1,6 +1,5 @@
 export default class Champion {
     constructor(champ) {
-        console.log(champ);
         this.name = champ.name;
         this.title = champ.title;
         this.id = champ.id;

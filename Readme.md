@@ -17,6 +17,10 @@ WikiLol es una aplicación web que permite a los usuarios explorar los campeones
 - **JavaScript**: Para la lógica de la aplicación y la interacción con la API.
 - **API de Riot Games**: Para obtener datos actualizados sobre los campeones.
 
+## Desplegado en Git Pages
+[WikiLol](https://nauzetpm.github.io/WikiLol/)
+
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
